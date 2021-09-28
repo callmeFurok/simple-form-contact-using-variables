@@ -1,6 +1,16 @@
 /* font*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
+/*===== VARIABLES*/
+:root {
+    --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient1: linear-gradient(135deg, #667eea86 0%, #764ba28e 100%);
+    --url-img: url(img/bgimg.jpg);
+    --box-shadow: 6px 6px 10px rgba(0, 0, 0, .6);
+    --width: 100%;
+    --radios: 8px;
+}
+
 * {
     margin: 0;
     padding: 0;
