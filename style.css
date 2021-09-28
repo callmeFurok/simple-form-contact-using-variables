@@ -20,7 +20,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-image: var(--gradient1), var(--url-img);
-    min-height: 100vh;
+    max-height: 100vh; /*para hacer solo una pagina sin scroll hacemos el maximo*/
     background-size: cover;
     background-position: center;
 }
