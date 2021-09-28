@@ -43,3 +43,22 @@ body {
     border: 1px solid #b39b9b;
 
 }
+
+/*para que los inputs hereden el font-famili*/
+.input, .form__submit {
+    font-family: inherit;
+}
+
+.form__title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+
+}
+
+/*damos ancho y alto maximo y minimo para que no modifiquen el textarea*/
+.form__message {
+    max-width: var(--width);
+    min-width: var(--width);
+    max-height: 150px;
+    min-height: 150px;
+}
