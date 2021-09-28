@@ -8,7 +8,7 @@
     --url-img: url(img/bgimg.jpg);
     --box-shadow: 6px 6px 10px rgba(0, 0, 0, .6);
     --width: 100%;
-    --radios: 8px;
+    --radius: 8px;
 }
 
 * {
@@ -19,4 +19,27 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-image: var(--gradient1), var(--url-img);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    width: 400px;
+    background: #fafafa;
+    margin: 30px auto;
+    padding: 30px 20px 40px;
+    text-align: center;
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+}
+
+.input {
+    width: var(--width);
+    padding: 20px 5px;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #b39b9b;
+
 }
