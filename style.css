@@ -20,7 +20,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-image: var(--gradient1), var(--url-img);
-    max-height: 100vh; /*para hacer solo una pagina sin scroll hacemos el maximo*/
     background-size: cover;
     background-position: center;
 }
@@ -79,4 +78,17 @@ body {
 .form__submit:hover {
     background-image: var(--gradient);
     transition: background-image .3s;
+}
+
+/* ============ RESPONSIVE DESIGN =============*/
+/*Tablet size*/
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px 0;
+        background-repeat: no-repeat;
+    }
+
+    .form {
+        margin: 0 auto;
+    }
 }
