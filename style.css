@@ -22,6 +22,7 @@ body {
     background-image: var(--gradient1), var(--url-img);
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 .form {
@@ -87,10 +88,6 @@ body {
     body {
         background-repeat: no-repeat;
         padding: 50px 0;
-    }
-
-    .form {
-        width: 80%;
     }
 
 }
